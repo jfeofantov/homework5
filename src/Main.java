@@ -33,7 +33,7 @@ public class Main {
                         50)
         };
 
-        int minAge = 20;
+        int minAge = 10;
         for (Employee employee : employees) {
             if (employee.age > minAge) {
                 employee.printInfo();
